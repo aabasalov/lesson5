@@ -30,7 +30,7 @@ public class Users {
         userArray[4] = new Users("Васильев Давид Андреевич", "Рабочий", "work2@comcom.com", "+7 (919) 715-6221", 70000, 41);
 
         for (int i = 0; i < userArray.length; i++) {
-            if (userArray[i].age>40) {
+            if (userArray[i].age > 40) {
                 userArray[i].info();
             };
         }
